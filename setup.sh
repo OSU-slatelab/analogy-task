@@ -57,7 +57,7 @@ else
         cd dependencies
         git clone https://github.com/drgriffis/configlogger.git
         cd ../
-        echo "export PYTHONPATH=\${PYTHONPATH}:$(pwd)/dependencies/pyemblib" >> ${PYCONFIG}
+        echo "export PYTHONPATH=\${PYTHONPATH}:$(pwd)/dependencies/configlogger" >> ${PYCONFIG}
     fi
 
     # check for drgriffis.common
