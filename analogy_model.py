@@ -4,7 +4,7 @@ https://github.com/tensorflow/tensorflow/blob/r0.11/tensorflow/models/embedding/
 '''
 import numpy as np
 import tensorflow as tf
-from drgriffis.science.metrics import AP_RR
+from lib.metrics import AP_RR
 from lib import compute_mode
 
 class AnalogyModel:
