@@ -3,7 +3,7 @@ BATS='BATS'
 BMASS='BMASS'
 
 def aslist():
-    return [BMASS, Google]
+    return [BMASS, BATS, Google]
 
 def getpath(key, config, setting):
     if key == Google:
